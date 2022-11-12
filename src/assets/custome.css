@@ -1,0 +1,21 @@
+.bookrow{
+    padding:0 80px 30px 40px;
+    height: 78vh;
+    overflow: scroll;
+  }
+  .bookrow::-webkit-scrollbar{
+    display: none;
+  }
+  .bookwidth
+  {
+    width:100%;
+  }
+  .detailscol{
+    height: 32%;
+    width: 62%;
+    background: #fff;
+    clip-path: polygon(0 0, 130% 0,73% 100%,0 100%);
+    position: absolute;
+    top: 74%;
+    left: 8%;
+  }
