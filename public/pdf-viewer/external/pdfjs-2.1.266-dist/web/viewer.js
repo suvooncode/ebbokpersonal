@@ -5129,9 +5129,9 @@ var mypdflink= 'test.pdf';
 
 console.log(localStorage.getItem('url'));
 
-var mypdflink = localStorage.getItem('url').replace("http://localhost:3000/Showbook/", "./Books/") + ".pdf";
+var mypdflink = localStorage.getItem('url').replace("https://manage.swol.world/elib/Showbook/", "./Books/") + ".pdf";
 
-var serverlink =  localStorage.getItem('url').replace("http://localhost:3000/Showbook/", "http://localhost:3000/Books/") + ".pdf";
+var serverlink =  localStorage.getItem('url').replace("https://manage.swol.world/Showbook/", "https://manage.swol.world/Shobhas_lms/wp-content/uploads/") + ".pdf";
 
 mypdflink = serverlink;
 

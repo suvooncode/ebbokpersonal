@@ -26,8 +26,7 @@ const Booksidebar = () => {
 
   
 useEffect(() => { 
-    if(localStorage.getItem('myrashi')!=null)
-    {
+    
        
        const options = {
             method: 'POST',
@@ -44,7 +43,7 @@ useEffect(() => {
           });
         
     
-    }} ,[]);
+    } ,[]);
 
 
 
