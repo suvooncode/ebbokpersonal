@@ -56,7 +56,7 @@ export default class LoginpageC extends Component {
                     localStorage.setItem("useremail", res.data.finduserdetails.data.user_email);
                     localStorage.setItem("username", res.data.finduserdetails.data.display_name);
                     localStorage.setItem("usernickname", res.data.finduserdetails.data.user_nicename);
-                    window.location.href = "/";
+                    window.location.href = "/Books";
                     }
                 )
             }

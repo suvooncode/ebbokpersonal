@@ -114,7 +114,7 @@ useEffect(() => {
                                
                                
                                 <>
-                            <div className="col-md-3" style={{position:"relative"}}>
+                            <div className="col-md-3 mt-2" style={{position:"relative"}}>
                                 <div >
                                     <img src={bookval.pdf_bg_image} className="bookwidth"/>
                                 </div>                           
@@ -124,7 +124,7 @@ useEffect(() => {
                                         {/* <span>{bookval.attached_file}</span> */}
                                         {/* { bookval.attached_file?.replace("https://manage.swol.world/Shobhas_lms/wp-content/uploads/", "")} */}
 
-                                        <Link  to={"/Showbook/"+bookval.attached_file?.replace("https://manage.swol.world/Shobhas_lms/wp-content/uploads/", "")?.replace(".pdf","")}>Read Now</Link>
+                                        <Link className='btn btn-sm btn-success' to={"/Showbook/"+bookval.attached_file?.replace("https://manage.swol.world/Shobhas_lms/wp-content/uploads/", "")?.replace(".pdf","")}>Read Now</Link>
 
                                         {/* <a href={bookval.guid} target="_balnk">Read Now</a> */}
                                     </p>
